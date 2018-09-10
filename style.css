@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poor Story', cursive;
+}
+.page-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+nav{
+    background-color: #ffbae7;
+}
+
+nav span{
+    font-size: 50pt;
+    padding: 20px;
+}
+
+.button-row {
+    padding: 45px;
+}
+
+.card-row {
+    padding: 40px;
+}
+
+#breedSpan{
+    font-size: 40pt;
+    text-align: center;
+}
